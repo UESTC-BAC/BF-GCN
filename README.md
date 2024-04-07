@@ -56,4 +56,4 @@ For the emotion recognition task with the transfer learning task, i.e., subject-
 
 **subject-dependent**
 
-Specifically, for the emotion recognition task without transfer learning, that is, the subject-dependent emotion decoding experiment, the BF-GCN graph learning system utilizes a simple full connection layer with dropout and a softmax function to decode individual emotional states.
+For the emotion recognition task without transfer learning, that is, the subject-dependent emotion decoding experiment, the BF-GCN graph learning system utilizes a simple full connection layer with dropout and a softmax function to decode individual emotional states.
