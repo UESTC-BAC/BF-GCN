@@ -48,10 +48,12 @@ we give 100 real samples in demo_data to run the Simple_Demo.py. If you want to 
 
 # Usage:
 
+It is worth pointing out that the proposed BF-GCN graph learning system designs two branches for the emotion recognition procedure, i.e., the fully-connected layer and the domain adversarial layer.
+
 **subject-independent**
 
-In the paper, we utilize the Domain-Adversarial Neural Network (DANN) transfer method for subject-independent experiments. You should use **domain_output** to calculate the adversarial loss.
+For the emotion recognition task with the transfer learning task, i.e., subject-independent emotion recognition, the BFGCN graph learning system adopts the domain adversarial layer to achieve a better transfer learning effect and realize the decoding of cross-individual emotion recognition.
 
 **subject-dependent**
 
-In the paper, we don't utilize the Domain-Adversarial Neural Network (DANN) transfer method for subject-dependent experiments. So you can disregard domain_output.
+Specifically, for the emotion recognition task without transfer learning, that is, the subject-dependent emotion decoding experiment, the BF-GCN graph learning system utilizes a simple full connection layer with dropout and a softmax function to decode individual emotional states.
