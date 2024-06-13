@@ -57,3 +57,7 @@ For the emotion recognition task with the transfer learning task, i.e., subject-
 **subject-dependent**
 
 For the emotion recognition task without transfer learning, that is, the subject-dependent emotion decoding experiment, the BF-GCN graph learning system utilizes a simple full connection layer with dropout and a softmax function to decode individual emotional states.
+
+# Citation:
+If you find our work helps your research, please kindly consider citing our paper in your publications.
+@ARTICLE{10549833, author={Li, Cunbo and Tang, Tian and Pan, Yue and Yang, Lei and Zhang, Shuhan and Chen, Zhaojin and Li, Peiyang and Gao, Dongrui and Chen, Huafu and Li, Fali and Yao, Dezhong and Cao, Zehong and Xu, Peng}, journal={IEEE Transactions on Neural Networks and Learning Systems}, title={An Efficient Graph Learning System for Emotion Recognition Inspired by the Cognitive Prior Graph of EEG Brain Network}, year={2024}, volume={}, number={}, pages={1-15}, keywords={Electroencephalography;Emotion recognition;Learning systems;Brain modeling;Cognition;Feature extraction;Affective computing;Affective computing;cognition-inspired learning;electroencephalogram (EEG) brain networks;emotion recognition;graph neural network}, doi={10.1109/TNNLS.2024.3405663}}
