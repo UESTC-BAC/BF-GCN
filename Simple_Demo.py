@@ -4,7 +4,6 @@ import pickle
 
 data_folder = './demo_data/demo_data.pickle'
 plv_folder = './demo_data/demo_plv.pickle'
-label_folder = 'E:/研究生/BF-GCN/SEED_cross_subject/data/data_process/label'
 
 with open(data_folder, 'rb') as f:
     data = pickle.load(f)
