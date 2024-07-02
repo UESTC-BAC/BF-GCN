@@ -44,7 +44,7 @@ This is a simple demo of BF-GCN based on PyTorch.
 
 - Prepare dataset: [SEED](https://bcmi.sjtu.edu.cn/~seed/index.html) and [SEED-IV](https://bcmi.sjtu.edu.cn/~seed/index.html)
 
-we give 100 real samples in demo_data to run the Simple_Demo.py. If you want to use our model to train on SEED, DEAP or your dataset, you can see the usage.
+We give 100 real samples in demo_data to run the Simple_Demo.py. If you want to use our model to train on SEED, DEAP or your dataset, you can see the usage.
 
 # Usage:
 
